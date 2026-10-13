@@ -10,7 +10,7 @@ import music_library                # Your custom music dictionary (make sure it
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
-# ---- Voice settings ----
+# ---- Voice settings -----
 engine.setProperty('rate', 160)                # Speech rate
 engine.setProperty('volume', 1.0)              # Volume level
 voices = engine.getProperty('voices')          
